@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Introduction/01_Introduction.iml" filepath="$PROJECT_DIR$/01_Introduction/01_Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Mathematics/02_Mathematics.iml" filepath="$PROJECT_DIR$/02_Mathematics/02_Mathematics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeeksCertification.iml" filepath="$PROJECT_DIR$/GeeksCertification.iml" />
+    </modules>
+  </component>
+</project>
