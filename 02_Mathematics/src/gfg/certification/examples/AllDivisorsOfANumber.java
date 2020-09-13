@@ -71,7 +71,7 @@ public class AllDivisorsOfANumber {
     //Efficient approach modified to print the numbers in sorted order
     static void printDivisorsEfficientApproachSortedOrder(int n){
         int i;
-        //Prints all divisors from 1 to root of n (both inclusive)
+        //Prints all divisors from 1 to root of n (1 inclusive, root of n exclusive)
         for(i = 1; i *i < n; i++){
             if(n % i == 0)
                 System.out.println(i);
