@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_Introduction/01_Introduction.iml" filepath="$PROJECT_DIR$/01_Introduction/01_Introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_Mathematics/02_Mathematics.iml" filepath="$PROJECT_DIR$/02_Mathematics/02_Mathematics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_BitMagic/03_BitMagic.iml" filepath="$PROJECT_DIR$/03_BitMagic/03_BitMagic.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksCertification.iml" filepath="$PROJECT_DIR$/GeeksCertification.iml" />
     </modules>
   </component>
