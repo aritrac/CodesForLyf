@@ -38,10 +38,33 @@ package gfg.certification.exercises;
  */
 public class GrayToBinaryConversion {
     public static void main(String[] args) {
-
+        System.out.println(grayToBinary(4));
+        System.out.println(grayToBinary(15));
+        System.out.println(grayToBinary(0));
     }
 
     public static int grayToBinary(int n){
-        return 0;
+        if(n == 0)
+            return 0;
+        int result = 0;
+        int msb = 0;
+        int temp = 0;
+        while(temp < n){
+            temp += (int)Math.pow(2,msb);
+            msb++;
+        }
+        result = result | (1<<(msb-1)); //setting first bit
+        msb--;
+        while(msb > -1){
+            if(((n >> msb) & 1) == 0){ // if current bit is 0, copy previous bit value
+                if((result & (1<<(msb+1))) > 0) //if previous bit is 1
+                    result = result | (1 << msb); //set next bit to 1
+            }else{ //if current bit is 1 ,invert the previous bit and copy it to current bit
+                if((result & (1<<(msb+1))) == 0)//get previous bit value
+                    result = result | (1 << msb); //set next bit with inverse value of previous
+            }
+            msb--;
+        }
+        return result;
     }
 }
